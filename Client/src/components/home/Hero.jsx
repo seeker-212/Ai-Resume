@@ -94,7 +94,7 @@ const Hero = () => {
           <button
             onClick={() => setMenuOpen(false)}
             className="active:ring-3 active:ring-white aspect-square size-10 p-1 items-center justify-center
-             bg-indigo-600 hover:bg-indigo-700 transition text-white rounded-md flex"
+             bg-green-600 hover:bg-green-700 transition text-white rounded-md flex"
           >
             X
           </button>
