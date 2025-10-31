@@ -4,6 +4,7 @@ import Hero from '../components/home/Hero'
 import Features from '../components/home/Features'
 import Testimonail from '../components/home/Testimonail'
 import CallToAction from '../components/home/CallToAction'
+import Footer from '../components/home/Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Features />
       <Testimonail />
       <CallToAction />
+      <Footer />
     </div>
   )
 }
