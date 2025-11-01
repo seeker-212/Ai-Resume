@@ -1,10 +1,15 @@
 import { Lock, Mail, User2Icon } from "lucide-react";
-import React from "react";
+import React, { useState } from "react";
 
 const Login = () => {
-  const [state, setState] = React.useState("login");
+  
+  const query = new URLSearchParams(window.location.search)
+  const urlstate = query.get('state')
 
-  const [formData, setFormData] = React.useState({
+  //State Variables
+  const [state, setState] = useState(urlstate || "login");
+
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     password: "",
